@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "TTNorms";
+  src: url("../fonts/TTNorms-Regular.otf") format("openType");
+}
+@font-face {
+  font-family: "TTNorms Medium";
+  src: url("../fonts/TTNorms-Medium.otf") format("openType");
+}
+@font-face {
+  font-family: "TTNorms Light";
+  src: url("../fonts/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+  font-family: "Times Roman Italic";
+  src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: "TTNorms";
+}
+
+
+
+.container {
+  max-width: 80rem; 
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
